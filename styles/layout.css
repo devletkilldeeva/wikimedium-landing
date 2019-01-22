@@ -1,0 +1,152 @@
+body {
+  background-color: black;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header nav {
+  display: flex;
+
+  padding: 3vw 111vw 0 2vw;
+
+  justify-content: space-between;
+}
+
+.logo {
+  width: 6vw;
+  height: 6vw;
+}
+
+h1 {
+  margin-top: 10vw;
+  margin-right: 9vw;
+  margin-left: 16vw;
+
+  color: white;
+
+  font: inherit;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 5vw;
+  line-height: 6vw;
+}
+
+h2 {
+  margin-top: 3vw;
+  margin-right: 11vw;
+  margin-left: 16vw;
+
+  color: #dedcdc;
+
+  font-family: 'PT Sans', sans-serif;
+  font-size: 3vw;
+  line-height: 4vw;
+}
+
+a {
+  color: #dedcdc;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 28vw;
+  margin-right: 13vw;
+  margin-bottom: 6vw;
+  margin-left: 27vw;
+
+  color: white;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vw;
+}
+
+.foo {
+  width: 38vw;
+  height: 6vw;
+  margin-top: 7vw;
+}
+
+.reda {
+  width: 80vw;
+  height: 79vw;
+  margin-left: 20vw;
+}
+
+.green {
+  width: 68vw;
+  height: 79vw;
+  margin-left: -21vw;
+}
+
+.fooo {
+  width: 38vw;
+  height: 6vw;
+  margin-top: 7vw;
+  margin-left: 55vw;
+}
+
+.fio {
+  width: 77vw;
+  height: 68vw;
+  margin-top: 3vw;
+  margin-left: 16vw;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+
+  width: 100%;
+  min-width: 768px;
+  margin-top: -9vw;
+}
+
+.buttons {
+  margin-top: 15vw;
+
+  text-align: center;
+}
+
+.lol {
+  display: inline-block;
+
+  margin-top: 20px;
+  padding: 9px 30px;
+
+  text-decoration: none;
+
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  background: grey;
+
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.kok {
+  display: inline-block;
+
+  margin-top: 20px;
+  margin-left: 5vw;
+  padding: 9px 30px;
+
+  text-decoration: none;
+
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 0 6px 12px;
+
+  font-size: 2vw;
+}
+@media (min-width: 768px)
+{
+  header nav {
+    padding: 2vw 5vw 0px 1vw;
+  }
+}
