@@ -169,12 +169,24 @@ h2 {
   }
 
   .city {
-    overflow-y: hidden;
+    overflow: hidden;
+  }
+
+  .bladerunner {
+    overflow: hidden;
   }
 
   .shining {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    position: static;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
